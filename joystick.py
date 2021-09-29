@@ -11,9 +11,6 @@ def solution(name):
             length += min(path[-1] + path[-2], len(name)-1 - path[-1])
         print(path, length)
         len_from_current = len(name) - 1 - i
-        #len_from_back = 
-        #cnt = abs(ord('A') - ord(name[i]))
-        #print(cnt)
     answer = 0
     return answer
 
